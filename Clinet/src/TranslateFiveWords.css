@@ -1,0 +1,48 @@
+.translate-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.translate-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.translate-category {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.word-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.word-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.word-english {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.translation-options button {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+
+.translation-options button:hover {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+.message {
+  font-size: 18px;
+  color: green;
+}
