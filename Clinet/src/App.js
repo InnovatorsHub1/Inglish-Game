@@ -38,7 +38,7 @@ const App = () => {
 
   const handleLogin = (userData) => {
     setUser(userData);
-    setWelcomeMessage(`Welcome ${userData.username}! You have ${userData.coins} coins and ${userData.furniture.length} furniture items.`);
+    setWelcomeMessage(`ברוכים הבאים ${userData.username}  יש לך ${userData.coins} מטבעות .`);
   };
 
   const handleRegister = () => {
