@@ -16,8 +16,8 @@ Staps:
 
 3. download Depndencies:
    ```sh
-   pnpm i
+   npm i
 
 4. Run Projuct In Local:
    ```sh
-   pnpm run dev
+   npm run dev
